@@ -137,7 +137,7 @@ body {
   align-items: start;
   flex-direction: column;
   height: 200px;
-  width: 98%;
+  width: 100%;
   background-color: rgb(255, 253, 253);
   border-radius: 1rem;
   font-size: 35px;
@@ -148,7 +148,7 @@ body {
 
 .main-3 {
   height: auto;
-  width: 99%;
+  width: 100%;
 }
 .input-main {
   display: flex;
@@ -156,7 +156,7 @@ body {
   justify-content: center;
   margin-left: 50px;
   height: 25px;
-  width: 72.5%;
+  width: 75.5%;
   gap: 20px;
   padding: 0 0 10px;
 }
