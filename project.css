@@ -1,0 +1,367 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.max-width {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.image img {
+  width: 100%;
+  height: 50px;
+}
+body {
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 1096px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  padding: 25px 1px;
+  background-color: #ffffff;
+}
+.navbar .text ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 25px;
+  width: 100%;
+  height: 35px;
+}
+.navbar .text ul a {
+  font-size: 20px;
+  text-decoration: none;
+}
+.navbar .text ul a:hover {
+  color: rgb(42, 77, 77);
+  text-decoration: underline;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.arrow .bt {
+  border: none;
+  width: 100%;
+}
+.arrow .bt img {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  border: none;
+}
+.main-1 {
+  display: flex;
+  align-items: start;
+  font-size: 50px;
+  flex-direction: column;
+  gap: 10px;
+}
+.model-5 {
+  max-width: 45%;
+}
+.model-5 img {
+  width: 100%;
+  height: auto;
+}
+.main-1 .p-button p {
+  background-color: #0a0000;
+  color: rgb(255, 255, 255);
+  padding: 0.6rem 1rem;
+  border-radius: 7px;
+}
+.main-1 h1 {
+  width: 363px;
+  letter-spacing: -2px;
+}
+.main-1 .p-button {
+  font-size: 0.9rem;
+  height: 2.3rem;
+  width: 15.2rem;
+}
+.main-1 .p-button:hover {
+  color: azure;
+  text-decoration: underline;
+  font-size: 15px;
+}
+.new-section {
+  width: 1050px;
+  padding-left: 80px;
+}
+.main-01 {
+  padding: 0px 60px;
+  height: 300px;
+  width: 100%;
+}
+
+.p-button p > span {
+  padding: 5px;
+}
+.model-5 img {
+  width: 1000px;
+  height: 600px;
+}
+.main-2 {
+  width: 100%;
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+}
+.main-2 h1 {
+  font-size: 45px;
+  margin: 0.6rem;
+  margin-top: 1.8rem;
+  margin-bottom: 1rem;
+}
+.main-div {
+  display: flex;
+  gap: 1rem;
+}
+
+.main-div img {
+  height: auto;
+  width: 90%;
+  border-radius: 1rem;
+}
+
+.main-3 .text-1 {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  height: 200px;
+  width: 98%;
+  background-color: rgb(255, 253, 253);
+  border-radius: 1rem;
+  font-size: 35px;
+
+  padding-top: 2rem;
+  margin: 20px;
+}
+
+.main-3 {
+  height: auto;
+  width: 99%;
+}
+.input-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  height: 25px;
+  width: 72.5%;
+  gap: 20px;
+  padding: 0 0 10px;
+}
+.input-main input {
+  border: 0.5px solid rgb(199, 189, 189);
+  border-radius: 4px;
+  padding: 0.2rem 1rem;
+}
+.input-main input:hover {
+  background-color: #e7e7e7;
+  color: #050202;
+  font-size: 15px;
+}
+
+.input-main button {
+  background-color: rgb(83, 79, 79);
+  color: white;
+  padding: 0.4rem 2.5rem;
+  border-radius: 0.5rem;
+}
+.input-main button:hover {
+  background-color: #121a31;
+  font-size: 15px;
+}
+.text-2 {
+  width: 98%;
+}
+.new-1 {
+  text-align: center;
+  padding-left: 125px;
+}
+.text-2 .check {
+  margin-top: 10px;
+  margin-left: 35px;
+}
+.main-input-text {
+  border: 1px solid rgb(233, 233, 233);
+  background-color: rgba(255, 255, 255, 0.952);
+  border-radius: 1rem;
+  height: 50px;
+  width: 100%;
+  margin-left: 5px;
+  padding-top: 1.5rem;
+
+  padding-bottom: 4rem;
+}
+.semenal .txt {
+  font-size: 22px;
+  padding: 25px;
+}
+.semenal .car img {
+  width: 90%;
+  height: 350px;
+  border-radius: 1rem;
+  margin: 25px;
+}
+.semenal .igm {
+  display: flex;
+  align-items: center;
+
+  gap: 1px;
+  background-color: rgb(255, 255, 255);
+}
+.semenal .pg {
+  background-image: url(First-assaignment/interiormacan2.jpg);
+  color: white;
+  width: 42%;
+  height: 332px;
+  text-align: center;
+  padding-top: 25px;
+
+  border-radius: 1rem;
+}
+.semenal .pg h1 {
+  padding: 13px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.semenal .pg p {
+  font-size: 20px;
+}
+.semenal {
+  width: 100%;
+}
+.trip .trip-text h1 {
+  font-size: 30px;
+  padding: 25px;
+}
+.trip .trip-img {
+  display: flex;
+  gap: 25px;
+  margin: 20px;
+  padding: 5px;
+}
+
+.trip .trip-img img {
+  width: 100%;
+  height: 300px;
+  border-radius: 1rem;
+}
+hr {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.last-01 .lst img {
+  width: 150px;
+  height: 30px;
+  padding: 10px;
+  margin-left: 1rem;
+}
+.last-01 .lst p {
+  font-size: 22px;
+  padding: 1rem;
+  margin-left: 0.5rem;
+}
+.last-01 .buttons button img {
+  width: 20px;
+}
+
+.last-01 .buttons {
+  margin-top: 10px;
+  width: 300px;
+  padding: 0.5rem;
+}
+.new-b {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-left: 1rem;
+}
+.last-2 {
+  display: flex;
+}
+
+.second-div ul {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  padding-top: -1rem;
+  font-size: 20px;
+}
+.second-div ul h1 {
+  padding-bottom: 1rem;
+}
+.second-div ul a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+}
+.second-div ul a:hover {
+  color: rgb(62, 57, 57);
+  text-decoration: underline;
+}
+.second-div {
+  margin: auto;
+}
+.lx-div button img {
+  width: 10px;
+}
+.lx-div input {
+  height: 20px;
+  width: 200px;
+  border: 1px solid rgb(151, 146, 146);
+  border-radius: 0.3rem;
+}
+.lx-div button {
+  height: 25px;
+  width: 45px;
+  background-color: #000000;
+  border-radius: 0.3rem;
+}
+.lx-div button img {
+  color: rgb(255, 233, 233);
+}
+.third-div {
+  font-size: 18px;
+  height: 200px;
+}
+.third-div h1 {
+  padding: 1px;
+}
+.third-div p {
+  padding: 10px;
+  padding-right: 25px;
+}
+.third-div .lx-div {
+  padding-top: 45px;
+  padding-left: 3px;
+}
+.third-div .lx-div input:hover {
+  background-color: #c7c7c7;
+  font-size: 15 px;
+}
+.third-div .lx-div button:hover {
+  background-color: #090b0c;
+}
+footer {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  text-align: center;
+  height: 10px;
+  background-color: rgb(244, 248, 250);
+}
+footer p:hover {
+  color: red;
+  text-decoration: underline;
+}
